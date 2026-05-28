@@ -12,7 +12,7 @@ import {
   handleTouchMove,
 } from "./utils/mouseUtils";
 import setAnimations from "./utils/animationUtils";
-import { setProgress } from "../Loading";
+import { setProgress } from "../utils/setProgress";
 
 const Scene = () => {
   const canvasDiv = useRef<HTMLDivElement | null>(null);
