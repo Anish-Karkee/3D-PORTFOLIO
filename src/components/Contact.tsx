@@ -32,12 +32,6 @@ const Contact = () => {
             <p>
               Bachelor of Information Technology (BIT) — Ongoing
             </p>
-            <p>
-              +2 High School — Passed Year 2082 (GPA: 3.10, Grade B+)
-            </p>
-            <p>
-              S.E.E — Passed Year 2075 (GPA: 3.00, Grade B+)
-            </p>
           </div>
           <div className="contact-box">
             <h4>Social &amp; Contact</h4>
@@ -67,6 +61,15 @@ const Contact = () => {
               className="contact-social"
             >
               Phone <MdArrowOutward />
+            </a>
+             <a
+              href="https://www.instagram.com/anish_fuckin.brats"
+              target="_blank"
+              rel="noreferrer"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              Instagram <MdArrowOutward />
             </a>
           </div>
           <div className="contact-box">
